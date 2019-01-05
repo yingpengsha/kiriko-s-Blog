@@ -8,7 +8,7 @@ theme:
   # sidebar background
   # sidebar_background:
   # maximum width of content
-  # content_width: 640
+  content_width: 100%
 
 # Sidebar menu
 # Mostly for your pages

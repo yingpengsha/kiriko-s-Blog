@@ -7,7 +7,7 @@ module.exports = function () {
   let style = '';
 
   if (config.background) style += `body { background: ${parseBg.call(this, config.background)} !important; }`;
-  if (config.content_width) style += `.page { max-width: ${config.content_width}px !important; }`
+  if (config.content_width) style += `.page { max-width: ${config.content_width} !important; }`
   if (config.sidebar_background) style += `@media (max-width: 975px) {
     .sidebar { background: ${parseBg.call(this, config.sidebar_background)} !important; }
   }`
